@@ -1,0 +1,24 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #cfffd1;
+}
+.text{
+    background: url('../img/test.gif') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 5px;
+    line-height: 5px;
+    margin: 0;
+    text-align: justify;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
